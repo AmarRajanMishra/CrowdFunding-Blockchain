@@ -10,7 +10,7 @@ import './index.css'
 
 // CrowdFunding Project Using BlckChain Concept
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+// Here am using client id to fetch backend concept
 root.render(
     <ThirdwebProvider activeChain={ Sepolia } clientId='24ad784323540be25d710af2f5afd569'> 
     <Router>
