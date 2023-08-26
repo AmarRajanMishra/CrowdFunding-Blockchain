@@ -10,7 +10,7 @@ const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
   const [isWithdraw, setIsWithdraw] = useState(false)
-  const { contract } = useContract('0x42C44A68749b74144E779BC99Cf814f06DD20052');
+  const { contract } = useContract('0xbF4A89EC7DcF405289711BB19a37F5E94769e15B');
   const { mutateAsync: createCampaign } = useContractWrite(contract, 'createCampaign');
 
   const address = useAddress();
