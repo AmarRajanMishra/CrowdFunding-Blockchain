@@ -8,7 +8,7 @@ import { Sepolia } from "@thirdweb-dev/chains";
 import App from './App'
 import './index.css'
 
-
+// CrowdFunding Project Using BlckChain Concept
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
